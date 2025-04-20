@@ -21,25 +21,16 @@ Uma API desenvolvida com **Python 3.11** e **FastAPI**, que permite consultar um
 
 # 1. Instação do Python
 
-# PASSO 1 – BAIXAR O INSTALADOR
 Acesse o site oficial do Python: https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe
 
-# PASSO 2 – EXECUTAR O INSTALADOR
-1. Dê dois cliques no arquivo baixado para abrir o instalador.
-2. MUITO IMPORTANTE: marque a opção:
-   ✅ “Add Python 3.11 to PATH”
-3. Clique em “Install Now”.
-4. Aguarde a instalação ser concluída.
+Dê dois cliques no arquivo baixado para abrir o instalador.
+MUITO IMPORTANTE: marque a opção: ✅ “Add Python 3.11 to PATH”
+Clique em “Install Now”.
+Aguarde a instalação ser concluída.
 
-# PASSO 3 – VERIFICAR A INSTALAÇÃO
-
-1. Abra o Prompt de Comando (CMD) ou PowerShell.
-2. Digite o seguinte comando para verificar se o Python foi instalado corretamente:
-
-   python --version
-
-   O resultado deve ser algo como:
-   Python 3.11.7
+Abra o Prompt de Comando (CMD) ou PowerShell.
+Digite o seguinte comando para verificar se o Python foi instalado corretamente: *'python --version'*
+O resultado deve ser algo como: *'Python 3.11.7'*
 
 
 # 1.1 Instalação das dependências
