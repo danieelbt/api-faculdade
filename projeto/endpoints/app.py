@@ -2,12 +2,17 @@ from fastapi import FastAPI
 
 from projeto.data.enum import Especialidade
 from projeto.data.fake_database import get_profissionais
-from projeto.schemas import Profissional, ProfissionaisList
+from projeto.schemas import Message, Profissional, ProfissionaisList
 from projeto.service.profissionais_service import profissionais_service
 
 app = FastAPI()
 
 lista_profissionais = get_profissionais()
+
+
+@app.get('/', response_model=Message, include_in_schema=False)
+def ola_mundo():
+    return {'message': 'Olá, mundo!'}
 
 
 @app.get(
